@@ -7,11 +7,11 @@ const useStyles = makeStyles(theme => ({
   root: {
     display: "flex",
     justifyContent: "center",
-    zIndex: "2"
+
+    position: "absolute"
   },
   chip: {
-    margin: theme.spacing(1),
-    zIndex: "2"
+    margin: theme.spacing(1)
   }
 }));
 
